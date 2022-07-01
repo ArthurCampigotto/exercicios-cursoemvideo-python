@@ -1,0 +1,5 @@
+pessoa = str(input('Digite seu nome: '))
+print('Seu nome em maiusculo é {}'.format(pessoa.upper()))
+print('Seu nome em minusculo é {}'.format(pessoa.lower()))
+print('Seu nome tem {} letras'.format(len(pessoa) - pessoa.count(' ')))
+print('Seu primeiro tem {} letras'.format(pessoa.find(' ')))
